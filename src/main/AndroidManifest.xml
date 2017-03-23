@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="android.bignerdranch.com.geologging">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Declaration that this app is usable on phones with Bluetooth Low Energy. -->
+    <uses-feature android:name="android.hardware.wifi"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="b2692f9d-3b5f-4021-9baa-cd3266797846"/>
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="m7k+tc63IoYoQEi+Z2dmKJD72YDNpL4nnJ2eXM/r/nq09w5+ioVERD6F8rISjim8dfAmo10qKqkY8Hg/ziIZv3gw8nkBbkIrAkE+mf9v1jcg0hVKGn5C7Y1JpDCVbg=="/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.indooratlas.android.sdk.IALocationService"
+            android:exported="false"
+            android:label="IALocationService"/>
+
+        <activity android:name=".PositionDotView">
+        </activity>
+    </application>
+
+</manifest>

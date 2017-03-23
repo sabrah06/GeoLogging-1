@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "58780935657",
+    "firebase_url": "https://mybirkbeck-4ca74.firebaseio.com",
+    "project_id": "mybirkbeck-4ca74",
+    "storage_bucket": "mybirkbeck-4ca74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58780935657:android:2bfd68b807e9b3af",
+        "android_client_info": {
+          "package_name": "android.bignerdranch.com.geologging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58780935657-506qgpdigh2ds3jr25j97chsqeh72opn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.bignerdranch.com.geologging",
+            "certificate_hash": "2fb64067c9a70f05b0d7b3e2430bbaf1c08893c8"
+          }
+        },
+        {
+          "client_id": "58780935657-gi8mr0c10mdv7sckv7qoavvo8e91s5v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsxVTwmTFHlYaqhnY6GlcGfZtri_u_vZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58780935657-gi8mr0c10mdv7sckv7qoavvo8e91s5v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
