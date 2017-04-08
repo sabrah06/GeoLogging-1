@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.2.1_a8b1152d535148e0b5780fe5c7b468c498ccdcc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.2.1_9419dad487081977cb7f92e841e5ba2ed2c8bcf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.2.1_0f0f472d28fbd6c806cc969257f4993638db9f5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b7310781939db9d50d5abe1dcb32e609298ca7bd">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_916cf55ac45d6768db29f14ce692473ecbfe1c01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_2fcc21e5f42af9742c6b000b77209a34b94b68b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.1_c8c7ec38b136a9b39d4c21d0abf051f3f4ef2103\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.1_3d4d011061c1cfba56584b2752be3b4a71f0d6bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.2.1_064ddc056ffb12f3f787cde2d78ca6e1ad31e5ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.2.1_9ca6436f8bad8254f52b74721254f89b73109709\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.2.1_2a1e362e26d69b39543d59abdbb445823bec1508\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.1_7fcf168cbc9cf27a0bd54b633b389412491b442c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_72951a74b28fc00ed6eaa34b60e5cc8e28ff018a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.2.1_3f1afc386d2c0804a91e914bdc806238d8b84eb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.2.1_5dee2d7894e7cdc46d3c383a91b9fa6bdf4023c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.1_22980a802100f09d21d5ff8e4023d0fdf27e3a94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.2.1_d3c4efbcc8ced912407eae7add5575e46ad9c096\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.2.1_1c0af0db3bc0abaa53f20d7f5fb6f42dca78cb40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.2.1_d7eeeff02661ede4f4eb07e783abe16f77c68695\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.1_cfb01ee01520a62f357a02ece533571ce1069373\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.1_4c7bd941437c155fc578453e1c91b3f5f15ebee8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_1fa1e02bc53dc7927feb167a06aa3b8a8082fa7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a2688a2d5bd316f2b1d3a34bbf3b0b89762c3a3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.2.1_f04a870292aaa6399c04913f3c62926810a07553\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.pubnub\pubnub-android\3.7.5\d2fca42bd2a37f584bcabeaecdc82fa4c458dd4e\pubnub-android-3.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2fca42bd2a37f584bcabeaecdc82fa4c458dd4e">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\pubnub-android-3.7.5_0a6de9d81536b90b7a755eb2730d4f26666e7f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.indooratlas.android\indooratlas-android-sdk\2.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6b787ce9595b8948e2457d2a20166615a00e946">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.indooratlas.android-indooratlas-android-sdk-2.3.1_e0be48a41577765691c05b2575d9fcd6d585227a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.2.1_08ef78b5ece6c2beb39600d356c9313b0580539e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.2.1_40cec666b1c3bdf8d25f7dbfedf9f2c639475487\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.2.1_0ca9abde78ade076861d01df47954b7502b790c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_2f70af0c74abc2cee4026999bbdf57de5e637ef7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_acd0603cbf6702c17425e526595630d890e097e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.2.1_777a6e0506b39be579393ce4a6c8d276d60283e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_9f7e84b73b2b7f00628e5f79006c6ac244928f3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_5ce252db1e5e20bb01a05d7e42fcf3a7cbe04e88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.2.1_54787345040230374341fad93d1b083fbaf96aeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_83b2458d9b24ba19e676fb59edf066ba6bdd7b87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.2.1_656d2e3496d88fe1e9f4ef5073a4965ba20fa0e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.2.1_a19a66e73040a82277ab290dfb822a0f7e688a8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.2.1_e8e4d23dfaccb55f9d3754be81d36d614f36506b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_0b347f677c8329d8cd61f2e768dec402514d308e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_206cd5faca42a76c9a5b4751710e084293779129\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_ae2bd358de23865492c6e97c94cebf192a67849c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.2.1_ba9f771a7eac40a14276bdce4bbd87e9e3d1ebd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.2.1_20cb3eb3152c5bea39653d51debbed4419dfc91f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.1_976d6f447e5bbdd58ac225fe9ceeb9a2db28cc79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.2.1_58b4f4bcc5c6b2fd37af232a38c471b10fa2ede2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.davemorrissey.labs\subsampling-scale-image-view\3.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d7c0b04b923dbcb3181aaddb6f0e3a6d28f785e">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.davemorrissey.labs-subsampling-scale-image-view-3.2.0_b5dab79d4ea29ad95ae59d2fc35a4471f4859dd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.2.1_41b71fb41f2ef8e738a670ff0f237054a51f3f1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.1_ccf05750d5ee21d33dd3675fb73906b149044f1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_ffb32f0d0d1746b3b190eee4a4ab053cbc91c3c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.2.1_2bae3102d8c6d3a62a470045f7c582c3358c8d52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_cda95c8c73ef0ab9642f741f788912a56747e0c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.2.1_98075cfa26de8d122413ba24d5786647432890a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.2.1_1a018a2d126cade775edc55e050af76389671254\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.2.1_2b6c471257b69b1d7b17f68d50378ab83261afd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.2.1_593b90e5560a269bc2fdfd0adf97c9b5e46508ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.2.1_25e8de457803715c325e5e68b0625d99d7a40d9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1_1eefccedc91e261600b3dbcc2bacde1733df1828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.2.1_1ead3cf8d7298047cd709871bfbce0bc6febf8a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.2.1_6bbbba21ef61bfd6948fba4c07194acf162d751c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_8e415def6b5cd65c38d1eabda0f7a2254762e4cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.2.1_9b3776281a32a6fcfc90e6b5514a0f84b06e0256\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_82df2b47c1114d20624f2e2edcb3611db7a74b45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_dae90866718ecd2350ab44a593b17351a5db576c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.1_8df63f18dd159c62457fbe6e9203e7da91fc32a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_ab343c3eaba39803bdb171681f2d50186d5f3af3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e25096de591172f75d245bc550f947065c150cda">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_16c47a6d32691716afb0eb99225771fcffe6b6ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_cb1c01957861c00ecb2da94eb7d4219cd65de272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.2.1_ccdf97c4a4663f049f323dd481879907c1c32dda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_224bca7fdc264544fb34d24f50cc8f3820d68fb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_ba83788ab58c6fe8ee8d49c1fa7e9e90f7d144fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.2.1_f5de17c352bc768005f71b501a58379655f93591\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_fa8669bd5df5c61bc98e471b25beb67d3722f742\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_ab6d27c4f4a76408476c3571dff22de852792eb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.1_facf45b4bd2fcdc47c75b540be6a7b86e1bd33de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.1_840a860ac656c72f3ac61ecc830612833d4bc288\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="C:\Users\Sheena\AndroidStudioProjects\GeoLogging\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.2.1_c5fccc0fda7cbafef33bcfd6278de20b8626bd9a\classes.dex" />
+    </item>
+
+</items>
