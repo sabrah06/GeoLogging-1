@@ -3,4 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firebaseEmail">sabrah06@mail.bbk.ac.uk</string>
+    <string name="firebasePass">Sheena69</string>
+    <string name="auth_failed">Firebase authentication failed</string>
 </resources>

@@ -51,9 +51,12 @@ dependencies {
     compile 'com.pubnub:pubnub-android:3.7.5'
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.google.android.gms:play-services:10.2.1'
     testCompile 'junit:junit:4.12'
+    compile 'org.mockito:mockito-all:2.0.2-beta'
+    compile 'org.robolectric:robolectric:3.3.2'
 }
-apply plugin: 'com.google.gms.google-services'
+
 
 repositories {
     maven { url 'http://indooratlas-ltd.bintray.com/mvn-public' }

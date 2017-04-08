@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.PointF;
 import android.location.Location;
@@ -14,6 +15,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Looper;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -28,6 +30,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.davemorrissey.labs.subscaleview.ImageSource;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.firebase.client.Firebase;
 import com.indooratlas.android.sdk.IALocation;
@@ -65,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
     // blue dot radius in meters
     private static final float dotRadius = 1.0f;
 
+    private static Location PointofInterest = new Location("PointofInterest");
+
+    private FirebaseAuth mAuth;
+
     private IALocationManager mIALocationManager;
     private IAResourceManager mFloorPlanManager;
     private IATask<IAFloorPlan> mPendingAsyncResult;
@@ -79,11 +90,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_floor_map_view);
         Firebase.setAndroidContext(this);
 
+        //FirebaseApp.initializeApp(this);
+        //mAuth = FirebaseAuth.getInstance();
+
+        //set the point of interest
+        PointofInterest.setLatitude(51.522254998285774);
+        PointofInterest.setLongitude(-0.1307914118549927);
 
         mFirebaseRef = new Firebase("https://mybirkbeck-4ca74.firebaseio.com/");
 
-
-        //mMessageEditText = (EditText) this.findViewById(R.id.message_text);
+        //Resources res = getResources();
+       // String femail = res.getString(R.string.firebaseEmail);
+        //String fpass = res.getString(R.string.firebasePass);
+        //SigninFireBase(femail,fpass);
 
         // prevent the screen going to sleep while app is on foreground
         findViewById(android.R.id.content).setKeepScreenOn(true);
@@ -105,15 +124,48 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    public void onSendButtonClick(View v) {
-//        String message = mMessageEditText.getText().toString();
-//        Map<String,Object> values = new HashMap<>();
-//        values.put("name", "puf");
-//        values.put("message", message);
-//        mFirebaseRef.push().setValue(values);
-//        mMessageEditText.setText("");
-//    }
+    /*
+    public void SigninFireBase(String email, String password)
+    {
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
 
+                        // If sign in fails, display a message to the user. If sign in succeeds
+                        // the auth state listener will be notified and logic to handle the
+                        // signed in user can be handled in the listener.string
+                        if (!task.isSuccessful()) {
+                            Resources reso = getResources();
+                            String auth_failed_mesg = reso.getString(R.string.auth_failed);
+                            Log.w(TAG, "signInWithEmail:failed", task.getException());
+                            Toast.makeText(MainActivity.this, auth_failed_mesg, Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+    }
+*/
+
+    public float GetCoords(Location location){
+        IALatLng latLng = new IALatLng(location.getLatitude(), location.getLongitude());
+        float[] results = new float[1];
+        Location.distanceBetween(location.getLatitude(), location.getLongitude(),
+                PointofInterest.getLatitude(), PointofInterest.getLongitude(), results);
+        float distance = results[0];
+        return distance;
+    }
+
+    public float GetDistance(double pointofInterestLat, double pointofInterestLong, double myLocLat, double myLocLong){
+        IALatLng MyLoclatLng = new IALatLng(myLocLat, myLocLong);
+        IALatLng POIlatLng = new IALatLng(pointofInterestLat, pointofInterestLong);
+        float[] results = new float[1];
+        Location.distanceBetween(MyLoclatLng.latitude, MyLoclatLng.longitude,
+                POIlatLng.latitude, POIlatLng.longitude, results);
+        float distance = results[0];
+        return distance;
+    }
     private IALocationListener mLocationListener = new IALocationListenerSupport() {
         @Override
         public void onLocationChanged(IALocation location) {
@@ -131,6 +183,22 @@ public class MainActivity extends AppCompatActivity {
                 PointF point = mFloorPlan.coordinateToPoint(latLng);
                 mImageView.setDotCenter(point);
                 mImageView.postInvalidate();
+            }
+            /*
+            float[] results = new float[1];
+            Location.distanceBetween(location.getLatitude(), location.getLongitude(),
+                    PointofInterest.getLatitude(), PointofInterest.getLongitude(), results);
+            float distance = results[0];
+            if (distance <= 2) {
+                Toast.makeText(MainActivity.this, "You are within close to the point of interest" + distance, Toast.LENGTH_SHORT).show();
+            }
+            */
+            Location checkLocation = new Location("ChangedLocation");
+            checkLocation.setLatitude(location.getLatitude());
+            checkLocation.setLongitude(location.getLongitude());
+            float distance = GetCoords(checkLocation);
+            if (distance <= 2){
+                Toast.makeText(MainActivity.this, "You are within close to the point of interest" + distance, Toast.LENGTH_SHORT).show();
             }
         }
     };
