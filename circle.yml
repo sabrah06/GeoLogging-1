@@ -12,15 +12,13 @@ machine:
 
 dependencies:
     pre:
-      - sudo add-apt-repository ppa:cwchien/gradle -y
-      - wget "https://services.gradle.org/distributions/gradle-2.10-bin.zip"; unzip gradle-2.10-bin.zip
-      - sudo apt-get install gradle-2.6
       - echo y | android update sdk --no-ui --all --filter "android-24, build-tools-25.0.2"
     override:
-      - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-21.1.2,android-21,extra-google-m2repository,extra-google-google_play_services,extra-android-support
-      - chmod +x gradlew
-      - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
+        - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-19.1.0,android-19,extra-google-m2repository,extra-google-google_play_services,extra-android-support
+        - chmod +x gradlew
+        - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
+
 test:
     override:
         - (./gradlew assemble):
-            timeout: 360
+timeout: 360
