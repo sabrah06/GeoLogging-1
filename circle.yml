@@ -12,9 +12,8 @@ machine:
 
 dependencies:
     pre:
-      - wget "https://services.gradle.org/distributions/gradle-2.10-bin.zip"; unzip gradle-2.10-bin.zip
       - sudo add-apt-repository ppa:cwchien/gradle -y
-      - sudo apt-get update
+      - wget "https://services.gradle.org/distributions/gradle-2.10-bin.zip"; unzip gradle-2.10-bin.zip
       - sudo apt-get install gradle-2.6
       - echo y | android update sdk --no-ui --all --filter "android-24, build-tools-25.0.2"
     override:
