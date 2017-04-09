@@ -1,5 +1,5 @@
 package android.bignerdranch.com.geologging;
-
+ 
 import android.content.Context;
 import android.location.Location;
 import android.test.InstrumentationTestCase;
