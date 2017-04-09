@@ -1,63 +1,24 @@
-apply plugin: 'com.android.application'
-android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
-    defaultConfig {
-        applicationId "android.bignerdranch.com.geologging"
-        minSdkVersion 16
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+task assemble{}
+
+buildscript {
+    repositories {
+        jcenter()
     }
-    packagingOptions {
-        exclude 'META-INF/NOTICE' // will not include NOTICE file
-        exclude 'META-INF/LICENSE' // will not include LICENSE file
-        // as noted by @Vishnuvathsan you may also need to include
-        // variations on the file name. It depends on your dependencies.
-        // Some other common variations on notice and license file names
-        exclude 'META-INF/notice'
-        exclude 'META-INF/notice.txt'
-        exclude 'META-INF/license'
-        exclude 'META-INF/license.txt'
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-    splits {
-        abi {
-            enable true
-            reset()
-            include 'x86', 'armeabi-v7a'
-            universalApk true
-        }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.google.gms:google-services:3.0.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.google.firebase:firebase-core:10.2.0'
-    compile 'com.google.firebase:firebase-database:10.2.0'
-    compile 'com.firebase:firebase-client-android:2.5.2'
-    compile 'com.indooratlas.android:indooratlas-android-sdk:2.3.1@aar'
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.2.0'
-    compile 'com.pubnub:pubnub-android:3.7.5'
-    compile 'com.android.support:design:25.2.0'
-    compile 'com.android.support:support-v4:25.2.0'
-    compile 'com.google.android.gms:play-services:10.2.1'
-    testCompile 'junit:junit:4.12'
-    compile 'org.mockito:mockito-all:2.0.2-beta'
-    compile 'org.robolectric:robolectric:3.3.2'
+
+allprojects {
+    repositories {
+        jcenter()
+    }
 }
 
-
-repositories {
-    maven { url 'http://indooratlas-ltd.bintray.com/mvn-public' }
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

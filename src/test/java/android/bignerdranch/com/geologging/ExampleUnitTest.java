@@ -1,5 +1,5 @@
 package android.bignerdranch.com.geologging;
-
+// Please ignore this test cases
 import org.junit.Test;
 
 import static org.junit.Assert.*;
