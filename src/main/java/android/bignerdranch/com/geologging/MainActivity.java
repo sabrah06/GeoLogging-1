@@ -58,20 +58,22 @@ import java.util.Locale;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-
+    //Firebase reference;
     private Firebase mFirebaseRef;
     private DatabaseReference mDatabase;
     EditText mMessageEditText;
 
     private TextView mLog;
     private static final String TAG = "MainActivity";
+
+    //set the Venue Id the floor map fo third floor from IndoorAtlas API
     private String Venue_Id="de97dcc9-da2a-4634-aa8b-e0ca8054d256";
 
     private static final int REQUEST_CODE_WRITE_EXTERNAL_STORAGE = 1;
 
     // blue dot radius in meters
     private static final float dotRadius = 1.0f;
-
+    // Set the Point of interest to a constant to the coordinates of the door of 353 - floor 3
     private static Location PointofInterest = new Location("PointofInterest");
 
     private FirebaseAuth mAuth;
@@ -88,32 +90,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_floor_map_view);
+
+        //set the firebase context to the activity
         Firebase.setAndroidContext(this);
 
-        //FirebaseApp.initializeApp(this);
-        //mAuth = FirebaseAuth.getInstance();
+        //set the point of interest to the door of room 352 - floor 3
+        PointofInterest.setLatitude(51.52225261374409);
+        PointofInterest.setLongitude(-0.13083979995587666);
 
-        //set the point of interest
-        PointofInterest.setLatitude(51.522254998285774);
-        PointofInterest.setLongitude(-0.1307914118549927);
-
+        // Reference to the Firebase storage
         mFirebaseRef = new Firebase("https://mybirkbeck-4ca74.firebaseio.com/");
-
-        //Resources res = getResources();
-       // String femail = res.getString(R.string.firebaseEmail);
-        //String fpass = res.getString(R.string.firebasePass);
-        //SigninFireBase(femail,fpass);
 
         // prevent the screen going to sleep while app is on foreground
         findViewById(android.R.id.content).setKeepScreenOn(true);
 
+        // Gets the image view of the blue dot position tracking
         mImageView = (PositionDotView) findViewById(R.id.imageView);
 
         mDownloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         mIALocationManager = IALocationManager.create(this);
         mFloorPlanManager = IAResourceManager.create(this);
 
-        /* optional setup of floor plan id
+        /* floor plan id
            if setLocation is not called, then location manager tries to find
            location automatically */
         final String floorPlanId = getString(R.string.indooratlas_floor_plan_id);
@@ -125,29 +123,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-    public void SigninFireBase(String email, String password)
-    {
-        mAuth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
-
-                        // If sign in fails, display a message to the user. If sign in succeeds
-                        // the auth state listener will be notified and logic to handle the
-                        // signed in user can be handled in the listener.string
-                        if (!task.isSuccessful()) {
-                            Resources reso = getResources();
-                            String auth_failed_mesg = reso.getString(R.string.auth_failed);
-                            Log.w(TAG, "signInWithEmail:failed", task.getException());
-                            Toast.makeText(MainActivity.this, auth_failed_mesg, Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-
-    }
-*/
-
+    Gets the distance in meters between two geographical coordinates for the mokito unit test runner
+     */
     public float GetCoords(Location location){
         IALatLng latLng = new IALatLng(location.getLatitude(), location.getLongitude());
         float[] results = new float[1];
@@ -157,6 +134,9 @@ public class MainActivity extends AppCompatActivity {
         return distance;
     }
 
+    /* Calculates the distance in meters between two geographical coordinates providing
+    the latitude and longtitude
+     */
     public float GetDistance(double pointofInterestLat, double pointofInterestLong, double myLocLat, double myLocLong){
         IALatLng MyLoclatLng = new IALatLng(myLocLat, myLocLong);
         IALatLng POIlatLng = new IALatLng(pointofInterestLat, pointofInterestLong);
@@ -166,9 +146,15 @@ public class MainActivity extends AppCompatActivity {
         float distance = results[0];
         return distance;
     }
+
+    /*
+    Ideas and life cycle code taken from Indoor Atlas Examples
+     Location changed code to track the coordinates
+  */
     private IALocationListener mLocationListener = new IALocationListenerSupport() {
         @Override
         public void onLocationChanged(IALocation location) {
+            // set the location coordinates along with time stamp for Firebase logging
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
             String currentDateandTime = sdf.format(new Date());
             Log.d(TAG, "location is: " + location.getLatitude() + "," + location.getLongitude() + ", time:" + currentDateandTime);
@@ -178,27 +164,21 @@ public class MainActivity extends AppCompatActivity {
             values.put("latitutde", location.getLatitude());
             values.put("longtitue", location.getLongitude());
             mFirebaseRef.push().setValue(values);
+
             if (mImageView != null && mImageView.isReady()) {
                 IALatLng latLng = new IALatLng(location.getLatitude(), location.getLongitude());
                 PointF point = mFloorPlan.coordinateToPoint(latLng);
                 mImageView.setDotCenter(point);
                 mImageView.postInvalidate();
             }
-            /*
-            float[] results = new float[1];
-            Location.distanceBetween(location.getLatitude(), location.getLongitude(),
-                    PointofInterest.getLatitude(), PointofInterest.getLongitude(), results);
-            float distance = results[0];
-            if (distance <= 2) {
-                Toast.makeText(MainActivity.this, "You are within close to the point of interest" + distance, Toast.LENGTH_SHORT).show();
-            }
-            */
+            // calculate the distance from the chnaged location and Point of Interest
             Location checkLocation = new Location("ChangedLocation");
             checkLocation.setLatitude(location.getLatitude());
             checkLocation.setLongitude(location.getLongitude());
             float distance = GetCoords(checkLocation);
-            if (distance <= 2){
-                Toast.makeText(MainActivity.this, "You are within close to the point of interest" + distance, Toast.LENGTH_SHORT).show();
+            // if distancce in metres is within 3 meters make a toast.
+            if (distance <= 3){
+                Toast.makeText(MainActivity.this, "You are within " + distance + " meters close to the point of interest", Toast.LENGTH_SHORT).show();
             }
         }
     };
@@ -234,6 +214,7 @@ public class MainActivity extends AppCompatActivity {
                     REQUEST_CODE_WRITE_EXTERNAL_STORAGE);
         }
     }
+
     private IARegion.Listener mRegionListener = new IARegion.Listener() {
 
         @Override
@@ -253,13 +234,18 @@ public class MainActivity extends AppCompatActivity {
 
     };
 
+    /*
+    Set the radius of the image blue dot image tracking the position
+     */
     private void showFloorPlanImage(String filePath) {
         Log.w(TAG, "showFloorPlanImage: " + filePath);
         mImageView.setRadius(mFloorPlan.getMetersToPixels() * dotRadius);
         mImageView.setImage(ImageSource.uri(filePath));
     }
 
-    /*  Broadcast receiver for floor plan image download */
+    /*  Code from IndoorAtalas example
+    * Broadcast receiver for floor plan image download
+    * */
     private BroadcastReceiver onComplete = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -288,7 +274,9 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /**
-     * Fetches floor plan data from IndoorAtlas server. Some room for cleaning up!!
+     * Code from IndoorAtlas example
+     * Fetches floor plan data from IndoorAtlas server.
+     * The third floor - BBK building
      */
     private void fetchFloorPlan(String id) {
         cancelPendingNetworkCalls();
